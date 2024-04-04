@@ -1,0 +1,379 @@
+body {
+	background-image: url('../img/bg.jpg');
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "Verdana";
+}
+
+.top-nav-blue {
+	background: #7bcafc;
+	height: 15px;
+	width: 100%;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+}
+
+.web-title {
+	padding-left: 4%;
+}
+
+.nav-div {
+	background: rgba(75, 76, 77, 0.4);
+	height: 130px;
+	width: 100%;
+	padding-top: 3%;
+}
+
+.nav-title {
+	float: left;
+	color: #f7fbfe;
+	width: 50%;
+}
+
+.nav-title p {
+	font-size: 0.8em;
+	line-height: 10px;
+}
+
+.main-about,
+.main {
+	padding-top: 5%;
+	height: 90vh;
+}
+
+.main-arrow-holder {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+
+.main-arrow-logo {
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	display: block;
+	margin-bottom: 1%;
+}
+
+.main-cv {
+	padding: 2% 8% 0 8%;
+}
+
+.cv-property {
+	width: 100%;
+}
+
+.hello {
+	color: #7bcafc;
+	font-size: 6em;
+}
+
+.intro {
+	color: #ffffff;
+	font-size: 2em;
+}
+
+.title {
+	color: #7bcafc;
+	font-size: 2em;
+}
+
+.about-body {
+	color: #ffffff;
+}
+
+.contact-content {
+	text-align: center;
+}
+
+.sub-title {
+	color: #ffffff;
+	line-height: 3px;
+}
+
+.contact-sub-content {
+	color: #ffffff;
+	font-size: 1.5em;
+	margin-top: 4%;
+	width: 100%;
+}
+
+.contact-row {
+	width: 60%;
+	padding-bottom: 1%;
+}
+
+.contact-icon {
+	height: 50px;
+	width: 50px;
+}
+
+.about-photo {
+	float: left;
+	width: 30%;
+}
+
+.about-content {
+	float: right;
+	width: 70%;
+}
+
+.photo {
+	height: 270px;
+	width: 320px;
+}
+
+.carousel-caption,
+.carousel-indicators,
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.img-carousel {
+	width: 100%;
+}
+
+.fmis-container,
+.osecc-container {
+	width: 100%;
+	padding: 3% 4% 3% 4%;
+}
+
+.fmis,
+.osecc {
+	 height: 100vh;
+	 color: #ffffff;
+}
+
+#fmis {
+	background: rgba(75, 76, 77, 0.95);
+}
+
+#osecc {
+	background: rgba(75, 76, 77, 0.75);
+}
+
+.home-subtitle {
+	text-align: center;
+	width: 100%;
+}
+
+.project-carousel-holder {
+	width: 65%;
+	margin-top: 2%;
+}
+
+.project-description-holder {
+	width: 35%;
+	margin-top: 1%;
+	padding: 3% 0 0 3%;
+}
+
+.custom-footer {
+	width: 100%;
+	height: 120px;
+	background: #363535;
+	padding-top: 2%;
+	font-size: 0.7em;
+	color: #ffffff;
+}
+
+.custom-footer-content {
+	text-align: center;
+}
+
+.footer-icon {
+	height: 20px;
+	width: 20px;
+	margin: 2px;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #7bcafc;
+}
+
+.active-link {
+	color: #7bcafc;
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 991px) {
+	.main {
+		padding-top: 5%;
+		height: 100vh;
+	}
+
+	.nav-title {
+		float: left;
+		color: #f7fbfe;
+		width: 48%;
+	}
+
+	.nav-title p {
+		font-size: 0.7em;
+		line-height: 10px;
+	}
+
+	.nav-link {
+		font-size: 1.5em;
+	}
+
+	.hello {
+		color: #7bcafc;
+		font-size: 8em;
+	}
+
+	.intro {
+		color: #ffffff;
+		font-size: 2.8em;
+	}
+
+	.web-title {
+		padding-left: 10%;
+	}
+
+	.fmis,
+	.osecc {
+		height: inherit;
+		color: #ffffff;
+	}
+
+	.project-carousel-holder {
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	.project-description-holder {
+		width: 100%;
+		margin-top: -5px;
+		padding-left: 0;
+		font-size: 2em;
+	}
+
+	.home-subtitle-label {
+		font-size: 3em;
+	}
+
+	.main-about {
+		padding-top: 0;
+		padding-bottom: 3%;
+		height: inherit;
+	}
+
+	.about-photo {
+		float: left;
+		width: 100%;
+	}
+	
+	.about-content {
+		float: left;
+		width: 100%;
+		font-size: 2em;
+	}
+	
+	.photo {
+		height: 680px;
+		width: 780px;
+		margin-top: 5%;
+	}
+
+	.btn-cv {
+		font-size: 1.5em;
+		margin-top: 2%;
+	}
+
+	.main-cv {
+		padding: 2% 2% 0 2%;
+	}
+}
+
+@media only screen and (max-height: 550px) {
+	.main-arrow-holder {
+		width: 100%;
+		margin-top: 5%;
+		position: relative;
+	}
+
+	.main {
+		padding-top: 5%;
+		height: inherit;
+	}
+
+	.nav-title {
+		float: left;
+		color: #f7fbfe;
+		width: 48%;
+	}
+
+	.nav-title p {
+		font-size: 0.7em;
+		line-height: 10px;
+	}
+
+	.nav-link {
+		font-size: 1.5em;
+	}
+
+	.web-title {
+		padding-left: 10%;
+	}
+
+	.fmis,
+	.osecc {
+		height: inherit;
+		color: #ffffff;
+	}
+
+	.project-carousel-holder {
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	.project-description-holder {
+		width: 100%;
+		margin-top: -5px;
+		padding-left: 0;
+		font-size: 2em;
+	}
+
+	.home-subtitle-label {
+		font-size: 3em;
+	}
+
+	.main-about {
+		padding-top: 0;
+		padding-bottom: 3%;
+		height: inherit;
+	}
+
+	.about-photo {
+		float: left;
+		width: 100%;
+	}
+	
+	.about-content {
+		float: left;
+		width: 100%;
+		font-size: 2em;
+	}
+	
+	.photo {
+		height: 680px;
+		width: 780px;
+	}
+
+	.btn-cv {
+		font-size: 1.5em;
+		margin-top: 2%;
+	}
+
+}
